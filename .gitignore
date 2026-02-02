@@ -1,0 +1,41 @@
+# Build artifacts
+build/
+lib/
+*.o
+*.a
+*.so
+
+# Test binaries (all test executables)
+test_*
+!test_*.c
+!test_*.py
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary files
+*.tmp
+/tmp/
