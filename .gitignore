@@ -19,7 +19,10 @@ __pycache__/
 *.pyc
 *.pyo
 
-# LaTeX
+# LaTeX source and output (protect from reverse engineering)
+*.tex
+*.pdf
+*.bib
 *.aux
 *.log
 *.out
