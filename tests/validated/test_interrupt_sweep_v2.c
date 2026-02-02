@@ -36,7 +36,7 @@
 #define BUFFER_SIZE (8 * 1024 * 1024)
 #define PRIORITY_ITERS 500000
 #define BACKGROUND_ITERS 100000
-#define NUM_TRIALS 30  /* Statistical rigor for TPDS */
+#define NUM_TRIALS 30  /* Statistical rigor for paper */
 #define CALIBRATION_RUNS 5
 
 static inline uint64_t get_time_ns(void) {
@@ -598,7 +598,7 @@ int main(void) {
     }
 
     printf("\n================================================================\n");
-    printf("KEY FOR TPDS PAPER\n");
+    printf("KEY FOR paper PAPER\n");
     printf("================================================================\n");
     printf("This data provides:\n");
     printf("- Tail latency guarantees (p99) for QoS claims\n");

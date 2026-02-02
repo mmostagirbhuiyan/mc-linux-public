@@ -66,8 +66,6 @@ gcc -O3 -march=native test_interference_detection.c \
 │       ├── test_basic.c
 │       ├── test_autoscaler_dynamic.c
 │       └── ...
-├── main-TPDS-final.tex          # Paper source
-├── main-TPDS-final.pdf          # Compiled paper
 └── README.md
 ```
 

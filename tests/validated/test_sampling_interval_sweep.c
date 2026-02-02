@@ -2,7 +2,7 @@
  * Sampling Interval Sweep Test (M2 Response)
  *
  * Measures detection latency vs overhead tradeoff for 1-20ms polling intervals.
- * This addresses TPDS Review M2: "What is the detection latency distribution?"
+ * This addresses Review M2: "What is the detection latency distribution?"
  *
  * Build (Pi):
  *   gcc -O3 -march=native test_sampling_interval_sweep.c -lpthread -lm -o test_sampling_sweep

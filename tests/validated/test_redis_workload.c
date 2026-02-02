@@ -602,7 +602,7 @@ int main(void) {
            percentile(all_protected_ops, NUM_TRIALS * NUM_OPERATIONS, 99));
 
     printf("\n================================================================\n");
-    printf("FOR TPDS PAPER\n");
+    printf("FOR PAPER\n");
     printf("================================================================\n");
     printf("This demonstrates:\n");
     printf("- Real application (Redis-like) workload, not synthetic\n");

@@ -1,6 +1,6 @@
-# Test Suite for TPDS Paper Reproducibility
+# Test Suite for Paper Reproducibility
 
-This directory contains tests that validate claims in the TPDS paper. All tests are reproducible with build instructions below.
+This directory contains tests that validate claims in the paper. All tests are reproducible with build instructions below.
 
 ---
 
@@ -148,4 +148,4 @@ Results should match paper within ±5% due to:
 
 ## Contact
 
-For reproducibility issues, see paper repository: https://github.com/mmostagirbhuiyan/mc-linux
+For reproducibility issues, please open an issue on this repository.
